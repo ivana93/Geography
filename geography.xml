@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-stylesheet type="text/xsl" href="geography1.xsl"?>
+
+<!-- New document created with EditiX XML Editor (http://www.editix.com) at Thu Jan 10 10:01:43 CET 2019 -->
+
+<geography title="Geography now">
+
+<!--Religions-->
+<religions>
+<religion>
+	<id>R1</id>
+	<description>christianity</description>
+</religion>
+
+<religion>
+	<id>R2</id>
+	<description>islam</description>
+</religion>
+
+<religion>
+	<id>R3</id>
+	<description>buddhism</description>
+</religion>
+
+<religion>
+	<id>R4</id>
+	<description>atheism</description>
+</religion>
+
+<religion>
+	<id>R5</id>
+	<description>taoism</description>
+</religion>
+</religions>
+
+<!--All countries used in the project-->
+<countries>
+
+<country>
+	<id>C1</id>
+	<name>Austria</name>
+	<capital>Vienna</capital>
+	<language>german</language>
+	<area>83 879</area>
+	<population>8 857 960</population>
+	<details>No country waltzes so effortlessly between the urban and the outdoors as Austria. One day you’re cresting alpine summits, the next you’re swanning around imperial Vienna. Over centuries, the Habsburgs channelled immense wealth into the fine arts and music, collecting palaces and castles the way others do stamps. You’ll still feel their cultural reverberations in Austria today – be it watching Lipizzaner stallions prance at the Spanish Riding School, or crossing the Hofburg to eyeball Rubens masterpieces in the Kunsthistorisches Museum, or Klimt and Schiele at the MuseumsQuartier. The work of classical pop stars such as Mozart, Strauss, Mahler, Haydn and Schubert echo as loudly as ever at lavishly gilded concert halls, and music festivals like Salzburg Festival and Bregenzer Festspiele are staged against uplifting lakeside or mountain backdrops.</details>
+	<religion>R1</religion>
+	<currency>euro</currency>
+</country>
+
+<country>
+	<id>C2</id>
+	<name>Bulgaria</name>
+	<capital>Sofia</capital>
+	<language>bulgarian</language>
+	<area>110 993</area>
+	<population>7 050 034</population>
+	<details>Soul-stirring mountains rival golden beaches, while cities hum with nightlife and art. Within Bulgaria’s beguiling blend of nature and history, unforgettable adventures are guaranteed. Long, sandy beaches and fine weather reel holidaymakers into Bulgaria’s Black Sea resorts each summer. Bulgarian inlanders are helplessly drawn to the freshening sea breeze and miles of turquoise water. Foreign visitors, too, are wise to Bulgaria’s coast, thanks to gorgeous seaside resorts such as Primorsko (and prices that compete well with Western Europe). Even the coast's two big cities, Varna and Burgas, have attractive beaches within minutes of their urban hearts. And while Sunny Beach, Sozopol and other favourites are thoroughly developed, there are still plenty of undiscovered coves north and south of the major hubs. Bulgaria’s untamed landscapes quicken the pulse of hikers, mountain bikers and skiers. Seven mountain ranges ripple across the country; glacial lakes sparkle between these snow-dusted peaks, and tangles of forest conceal wolves, bears and lynx, a glimpse of Europe’s primeval past. Networks of trails and hizhas (hiking huts) allow access to such raw beauty as mist-cloaked panoramas in the Stara Planina range and sunrise from Bulgaria’s second-highest peak, Mt Vihren (2915m). Between trekking among Rodopi villages, thundering across ski fields in Bansko or birdwatching in Pirin National Park, Bulgaria has much to delight (and exhaust) lovers of the great outdoors. Whispers of history emanate from Bulgaria’s fortresses and ruins. Caves secreted in Bulgaria’s river-sculpted wilds hold traces of Neolithic settlements. The mysterious Thracians left behind dazzling hauls of gold and silver, and tombs that can be explored to this day. The Romans built cities of breathtaking scale, the bathhouses, walls and amphitheatres of which sit nonchalantly in the midst of modern cities such as Varna and Plovdiv. Successions of tsars strutted along the ramparts of Tsarevets Fortress at former capital Veliko Târnovo. And these histories are no less relevant today, with Thracian art and Bulgaria’s victory over the Ottomans continuing to inspire.</details>
+	<religion>R1</religion>
+	<currency>leva</currency>
+</country>
+
+<country>
+	<id>C3</id>
+	<name>Czech Republic</name>
+	<capital>Prague</capital>
+	<language>czech</language>
+	<area>78 866</area>
+	<population>10 610 947</population>
+	<details>The Czech Republic's location in the middle of Europe has seen a long history of raiding tribes, conquering armies and triumphant dynasties. This turbulent past has left a legacy of hundreds of castles and chateaux – everywhere you look there seems to be a many-turreted fortress perched above a town, or a romantic summer palace lazing peacefully amid manicured parkland. The number and variety of Czech castles is simply awe-inspiring – everything from grim Gothic ruins clinging to a dizzy pinnacle of rock, to majestic, baroque mansions filled with the finest furniture that Europe’s artisans could provide. The Czech Republic may be a modern, forward-thinking nation riding into the future on the back of the EU and NATO, but it is also a country rich in tradition. This is most apparent in South Bohemia and Moravia, where a still-thriving folk culture sparks into life during the summer festival season. During this time, communities from Český Krumlov to Telč to Mikulov don traditional garb, pick up their musical instruments – and wine glasses – and sing and dance themselves silly, animating ancient traditions in one of the best examples of ‘living history’ in the Czech Republic. The best beer in the world just got better. Since the invention of Pilsner Urquell in 1842, the Czechs have been famous for producing some of the world's finest brews. But the internationally famous brand names – Urquell, Staropramen and Budvar – have been equalled, and even surpassed, by a bunch of regional Czech beers and microbreweries that are catering to a renewed interest in traditional brewing. Never before have Czech pubs offered such a wide range of brews – names you'll now have to get your head around include Kout na Šumavě, Primátor, Únětice and Matuška</details>
+	<religion>R4</religion>
+	<religion>R1</religion>
+	<currency>czech koruna</currency>
+</country>
+
+<country>
+	<id>C4</id>
+	<name>United Kingdom</name>
+	<capital>London</capital>
+	<language>english</language>
+	<area>130 279</area>
+	<population> 55 619 400</population>
+	<details>This green and pleasant land, this sceptred isle, this crucible of empire and pioneer of parliamentary democracy: England is eccentric, exhilarating and endlessly intriguing. It might be small, but England packs a lot of scenery into its pint-sized shores: green fields and rumpled hills, chalk cliffs and breezy plains, ancient woods and moody moorland. There are 10 national parks, 34 Areas of Outstanding National Beauty (AONB) and miles of craggy, beach-fringed coastline – 2795 miles, in fact, making England's coast one of Europe’s longest, and the only one to have a public coast path the whole way round. Whether you're tramping over the South Downs, climbing Lake District fells or wandering above Dover's fabled White Cliffs, England is a never-ending feast for the eyes. With a story that stretches back more than 5000 years (and likely long before), England is a place where the past is a constant presence. Ruined castles perch on lonely hilltops. Mysterious menhirs (prehistoric standing stones), barrow tombs and stone circles sit in the corner of forgotten fields. Medieval cathedrals, regal palaces and improbably ostentatious stately homes pop up with bewildering regularity. And every English city, town and village has its own individual tale to tell: a sprawling, historical epic of kings and commoners, industrialists and inventors, eccentrics, dreamers and rebels that's as fascinating – and surprising – as anything Shakespeare, Dickens or JK Rowling could dream up.</details>
+	<religion>R1</religion>
+	<currency>Pound sterling</currency>
+</country>
+
+<country>
+	<id>C5</id>
+	<name>Estonia</name>
+	<capital>Tallinn</capital>
+	<language>estonian</language>
+	<area>45 227</area>
+	<population>1 319 133</population>
+	<details>Estonia doesn’t have to struggle to find a point of difference: it’s completely unique. It shares a similar geography and history with Latvia and Lithuania, but culturally it’s distinct. Its closest ethnic and linguistic buddy is Finland, though 50 years of Soviet rule in Estonia have separated the two. For the last 300 years Estonia’s been linked to Russia, but the two states have as much in common as a barn swallow and a bear (their respective national symbols). With a newfound confidence, singular Estonia has crept from under the Soviet blanket and leapt into the arms of Europe. The love affair is mutual. Europe has fallen head-over-heels for the charms of Tallinn and its Unesco-protected Old Town. Put simply, Tallinn is now one of the continent’s most captivating cities. And in overcrowded Europe, Estonia’s sparsely populated countryside and extensive swathes of forest provide spiritual sustenance for nature-lovers.</details>
+	<religion>R4</religion>
+	<religion>R1</religion>
+	<currency>euro</currency>
+</country>
+
+<country>
+	<id>C6</id>
+	<name>France</name>
+	<capital>Paris</capital>
+	<language>french</language>
+	<area>640 679</area>
+	<population>67 348 000</population>
+	<details>France is about world-class art and architecture. It seduces with iconic landmarks known the world over and rising stars yet to be discovered. This country's cultural repertoire is staggering – in volume and diversity. And this is where the beauty of la belle France lies: when superstars such as Mademoiselle Eiffel, royal Versailles and the celebrity-ridden French Riviera have been ticked off, there’s ample more to thrill. France is, after all, the world's top tourism destination with some 89 million visitors each year who flock to the land of the Gauls to feast on its extraordinary wealth of museums, galleries, ateliers (artist workshops) and hands-on cultural experiences. Food is of enormous importance to the French and the daily culinary agenda takes no prisoners: breakfasting on warm croissants from the boulangerie (bakery), stopping off at Parisian bistros, and market shopping are second nature to the French – and it would be rude to refuse. But French gastronomy goes far deeper than just eating exceedingly well. Its experiential nature means there is always something tasty to observe, learn and try. Be it flipping crêpes in Brittany or clinking champagne flutes in ancient Reims cellars, the culinary opportunities are endless.</details>
+	<religion>R1</religion>
+	<currency>euro</currency>
+</country>
+
+<country>
+	<id>C7</id>
+	<name>Germany</name>
+	<capital>Berlin</capital>
+	<language>german</language>
+	<area>357 386</area>
+	<population>82 800 000</population>
+	<details>There's something undeniably artistic in the way Germany's scenery unfolds; the corrugated, dune-fringed coasts of the north; the moody forests, romantic river valleys and vast vineyards of the centre; and the off-the-charts splendour of the Alps, carved into rugged glory by glaciers and the elements. All of these are integral parts of a magical natural matrix that's bound to give your camera batteries a good workout. Get off the highway and into the great outdoors to soak up the epic landscapes that make each delicious, slow, winding mile so precious. Experiencing Germany through its food and drink will add a rich layer to your memories (and possibly to your belly!). You'll quickly discover that the local food is so much more than sausages and pretzels, schnitzel and roast pork accompanied by big mugs of foamy beer. Beyond the clichés awaits a cornucopia of regional and seasonal palate-teasers. Share the German people's obsession with white asparagus in springtime, chanterelle mushrooms in summer and game in autumn. Sample not only the famous beer but also world-class wines, most notably the noble Riesling.</details>
+	<religion>R1</religion>
+	<currency>euro</currency>
+</country>
+
+<country>
+	<id>C8</id>
+	<name>Greece</name>
+	<capital>Athens</capital>
+	<language>greek</language>
+	<area>131 957</area>
+	<population>10 768 477</population>
+	<details>Standing in the shadow of the Acropolis feels other-worldly. Greece is full of such moments. Step into the ring where Olympians first competed. Climb steps hewn out of stone to Meteora’s monasteries, perched atop towering rocks. Contemplate the oracle’s insights from the grandeur of Delphi, take in a starlit drama at an ancient outdoor theatre and be stunned by massive marble sculptures dredged up from the Aegean. But then you’ll encounter bold modern art, the melancholic throb of rembetika (blues songs) and artisans creating new work from traditional techniques. Greece has endless cultural pursuits and a calendar bursting with festivals, holidays and exhibits.</details>
+	<religion>R1</religion>
+	<currency>euro</currency>
+</country>
+
+<country>
+	<id>C9</id>
+	<name>Hungary</name>
+	<capital>Budapest</capital>
+	<language>hungarian</language>
+	<area>93 030</area>
+	<population>9 797 561</population>
+	<details>Hungary’s scenery is more gentle than striking. But you can’t say the same thing about the built environment across the land. Architecturally Hungary is a treasure trove, with everything from Roman ruins and medieval townhouses to baroque churches, neoclassical public buildings and art nouveau bathhouses and schools. And we're not just talking about its capital, Budapest. Walk through Szeged or Kecskemét, Debrecen or Sopron and you’ll discover an architectural gem at virtually every turn. Indeed, some people go out of their way for another glimpse of their favourites, such as the Reök Palace in Szeged or the Mosque Church in Pécs.Hungarian food remains the most sophisticated style of cooking in Eastern Europe. Magyars even go so far as to say there are three essential world cuisines: French, Chinese and their own. That may be a bit of an exaggeration, but Hungary's reputation as a food centre dates largely from the late 19th century and the first half of the 20th and, despite a fallow period under communism, their cuisine is once again commanding attention. So too are the nation's world-renowned wines – from the big-bodied reds of Eger and Villány and white olaszrizling from Badacsony to honey-sweet Tokaj.</details>
+	<religion>R1</religion>
+	<currency>Forint</currency>
+</country>
+
+<country>
+	<id>C10</id>
+	<name>Italy</name>
+	<capital>Rome</capital>
+	<language>italian</language>
+	<area>301 340</area>
+	<population>60 483 973</population>
+	<details>Epicentre of the Roman Empire and birthplace of the Renaissance, this European virtuoso groans under the weight of its cultural cachet: it's here that you'll stand in the presence of Michelangelo's David and Sistine Chapel frescoes, Botticelli's Birth of Venus and Primavera and da Vinci's The Last Supper. In fact, Italy has more Unesco World Heritage cultural sites than any other country on Earth. Should you walk in the footsteps of ancient Romans in Pompeii, revel in Ravenna's glittering Byzantine treasures or get breathless over Giotto's revolutionary frescoes in Padua? It's a cultural conundrum as thrilling as it is overwhelming.In few places do art and life intermingle so effortlessly. This may be the land of Dante, Titian and Verdi, but it's also the home of Prada, Massimo Bottura and Renzo Piano. Beauty, style and flair furnish every aspect of daily life, from those immaculately knotted ties and seamless espressos to the flirtatious smiles of striking strangers. The root of Italian psychology is a dedication to living life well, and effortless as it may seem, driving that dedication is a reverence for the finer things. So slow down, style up and indulge in a little vita all'italiana (life, Italian style).</details>
+	<religion>R1</religion>
+	<currency>euro</currency>
+</country>
+
+<country>
+	<id>C11</id>
+	<name>Romania</name>
+	<capital>Bucharest</capital>
+	<language>romanian</language>
+	<area>238 397</area>
+	<population>19 638 000</population>
+	<details>The Carpathian Mountains draw a wide arc through the centre of the country, leaving a swath of exposed rocky peaks surrounded by groves of pine and deciduous trees, and stretches of bright green meadow below. The harsh geography has limited human habitation, and the woods are filled with deer, elk and bear. Europe's second-longest river, the Danube, marks Romania's southern border with Bulgaria before turning suddenly northward and emptying into the Black Sea. The delta provides sanctuary for 300 species of bird and 160 species of fish. The sprawling marshes account for the largest expanse of reed beds in the world. Transylvania, the land that gave us Dracula, has no shortage of jaw-dropping castles pitched precariously on rocky hilltops. There's spooky Bran Castle, of course, with its spurious connection to Bram Stoker’s fictional count, but don’t overlook beauties such as Hunedoara’s 14th-century Corvin Castle or King Carol I’s sumptuous 19th-century pile, Peleş Castle. In medieval towns like Braşov, Sighişoara and Sibiu, cobbled walkways support chic streetside cafes, while a cacophony of sounds emanating from student bars and clubs echo off the Gothic and baroque facades in lively Cluj-Napoca. Transylvania’s Saxon villages boast fortified churches that date back half a millennium.</details>
+	<religion>R1</religion>
+	<currency>Romanian Leu</currency>
+</country>
+
+<country>
+	<id>C12</id>
+	<name>Serbia</name>
+	<capital>Belgrad</capital>
+	<language>serbian</language>
+	<area>77 474</area>
+	<population>7 001 444</population>
+	<details>Diverse, welcoming and a hell of a lot of fun – everything you never heard about Serbia is true. Best of all, this landlocked country in the heart of the Balkans is still delightfully off the tourist trail. While the feisty Serbian spirit is embodied in Belgrade’s world-class nightlife and Novi Sad’s epic EXIT festival, look beyond these historic metropolises and you’ll discover a crucible of cultures and unsullied outdoors ripe for exploration. The art nouveau town of Subotica revels in its Austro-Hungarian heritage, bohemian Niš echoes to the clip-clop of Roma horse carts, and minaret-studded Novi Pazar nudges the most sacred of Serbian Orthodox monasteries. Established wine regions and thermal spas cradled in rolling hills date back to Roman times. On the slopes of Kopaonik, Zlatibor and Stara Planina, ancient traditions coexist with après-ski bling, while super-scenic Tara and Đerdap national parks brim with hiking, biking, rafting and kayaking opportunities.</details>
+	<religion>R1</religion>
+	<currency>Serbian dinar</currency>
+</country>
+
+<country>
+	<id>C13</id>
+	<name>Spain</name>
+	<capital>Madrid</capital>
+	<language>spanish</language>
+	<area>505 990</area>
+	<population>46 710 000</population>
+	<details>Spain’s diverse landscapes stir the soul. The Pyrenees and the Picos de Europa are as beautiful as any mountain range on the continent, while the snowcapped Sierra Nevada rises up improbably from the sun-baked plains of Andalucía; these are hiking destinations of the highest order. The wildly beautiful cliffs of Spain’s Atlantic northwest are offset by the charming coves of the Mediterranean. And everywhere you go, villages of timeless beauty perch on hilltops, huddle in valleys and cling to coastal outcrops as tiny but resilient outposts of Old Spain. That's where the country's charms are most likely to take hold. Windswept Roman ruins, cathedrals of rare power and incomparable jewels of Islamic architecture speak of a country where the great civilisations of history have risen, fallen and left behind their indelible mark. More recently, what other country could produce such rebellious and relentlessly creative spirits as Salvador Dalí, Pablo Picasso and Antoni Gaudí and place them front and centre in public life? And here, grand monuments of history coexist alongside architectural creations of such daring that it becomes clear Spain's future will be every bit as original as its past.</details>
+	<religion>R1</religion>
+	<currency>euro</currency>
+</country>
+
+<country>
+	<id>C14</id>
+	<name>Netherlands</name>
+	<capital>Amsterdam</capital>
+	<language>dutch</language>
+	<area>41 543</area>
+	<population>17 290 900</population>
+	<details>In a country that gave birth to celebrated Dutch Masters like Rembrandt, Vermeer, Van Gogh and Piet Mondrian, the art legacy is huge. World-renowned art museums in Amsterdam, Den Haag, Rotterdam, Haarlem and Leiden drip with iconic masterpieces, alongside a respectable portfolio of contemporary works. The Dutch influence on construction spans more than a millennia, from Romanesque and Gothic medieval magnum opuses to Dutch Renaissance palaces and romantic Golden Age gabled houses. Trailblazing contemporary architecture – green and innovative – is a perfect reflection of a country perfectly in tune with its environment (and the need to protect it). With fabulously pancake-flat, scenic landscapes beckoning along every last dyke, canal, river and coastal shore, two-wheeling in the Netherlands is one of Dutch life's greatest pleasures (headwinds notwithstanding). While the bike-loving Dutch practically live on their well-worn, beloved fietsen (bicycles) – many, infamously only with back-pedal coaster brakes – cycling for visitors is a wonderful means of exploring and getting around. Bike-rental outlets are ubiquitous, and the country is criss-crossed with some 32,000km of cycling paths, including the Dutch 'motorways' of cycling, the long-distance LF routes. Grab some wheels and go!</details>
+	<religion>R1</religion>
+	<religion>R4</religion>
+	<currency>euro</currency>
+</country>
+
+<country>
+	<id>C15</id>
+	<name>South Korea</name>
+	<capital>Seoul</capital>
+	<language>korean</language>
+	<area>100 363</area>
+	<population>51 446 201</population>
+	<details>Korea might be known as the Land of the Morning Calm, but dive into its capital Seoul, the powerhouse of Asia’s third-largest economy, and serenity may be the last thing you’ll perceive. This round-the-clock city is constantly in motion, with a work-hard, play-hard mentality that epitomises the nation’s indefatigable, can-do spirit. You can hardly turn a corner without stumbling across a helpful tourist information booth, a bustling subway station or a taxi in this multifaceted metropolis where meticulously reconstructed palaces rub shoulders with teeming night markets and dramatically modern architecture. Rest assured the ROK also knows how to rock. A packed calendar of festivals and events means there’s almost always a celebration of some sort to attend wherever you are – it might be Boryeong for its mud fest, or Gwangju for its Biennale or its annual salute to that most Korean of foods: kimchi. Koreans are proud of their culinary culture and rightly so – there's a tantalising array of dishes, flavours, aromas and textures in the local cuisine, to be washed down with plenty of toasting involving a head-spinning array of alcoholic concoctions.</details>
+	<religion>R4</religion>
+	<religion>R1</religion>
+	<religion>R3</religion>
+	<currency>korean won</currency>
+</country>
+
+<country>
+	<id>C16</id>
+	<name>Taiwan</name>
+	<capital>Taipei</capital>
+	<language>mandarin</language>
+	<area>36 197</area>
+	<population>23 577 271</population>
+	<details>Famed for centuries as Ilha Formosa (Beautiful Isle; 美麗島; Měilìdǎo), this is a land with more sides than the 11-headed Guanyin. Towering sea cliffs, marble-walled gorges and tropical forests are just the start of your journey, which could take you as far as Yushan, Taiwan's 3952m alpine roof.In Taiwan you can criss-cross mountains on colonial-era hiking trails or cycle a lone highway with the blue Pacific on one side and green volcanic arcs on the other. And if you simply want a classic landscape to enjoy, you'll find them around every corner. 'Have you eaten?' The words are used as a greeting here, and the answer is always 'yes', as there's just too much nibbling to do. Taiwan offers the gamut of Chinese cuisines, some of the best Japanese outside Japan, and a full house of local specialities from Tainan milkfish and Taipei beef noodles to indigenous barbecued wild boar. Night markets around the island serve endless feasts of snacks including stinky tofu, steamed dumplings, oyster omelettes, shrimp rolls and shaved ice. And when you're thirsty you can look forward to juices from the freshest local fruits, local craft beer, aromatic teas and, in a surprising twist, Asia's best gourmet coffee. Defying those who said it wasn't in their DNA, the Taiwanese have created Asia's most vibrant democracy and liberal society, with a raucous free press, gender equality, and respect for human rights and, increasingly, animal rights as well. The ancestors are still worshipped, and mum and dad still get their dues, but woe betide the politician who thinks it's the people who must pander, and not him – or her. If you want to catch a glimpse of the people's passion for protest, check out Taipei Main Station on most weekends, or just follow the local news.</details>
+	<religion>R3</religion>
+	<religion>R5</religion>
+	<religion>R4</religion>
+	<currency>taiwan dollar</currency>
+</country>
+
+</countries>
+
+</geography>

@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+<!-- =========================== Components ================================ -->
+
+<!-- keine speziellen Angaben benoetigt -->
+ 
+<!-- =========================== Views =================================== -->
+
+<!-- keine speziellen Angaben benoetigt -->
+
+<!-- =========================== Pipelines ================================= -->
+
+<map:components>
+
+<map:transformers>
+		
+
+
+<map:transformer name="xslt" src="org.apache.cocoon.transformation.TraxTransformer">
+		
+<use-request-parameters>true</use-request-parameters>
+		<use-session-parameters>false</use-session-parameters>
+		<use-cookie-parameters>false</use-cookie-parameters>
+		<xslt-processor-role>xalan</xslt-processor-role>
+		<check-includes>true</check-includes>
+		
+</map:transformer>
+		
+
+</map:transformers>
+
+</map:components>
+
+
+
+ <map:pipelines>
+	<map:pipeline>
+		<map:match pattern="">
+			<map:redirect-to uri="welcome"/>
+		</map:match>
+		</map:pipeline>
+
+		
+		<map:pipeline>
+		<map:match pattern="welcome">
+			<map:read src="worldHigh.svg" mime-type="image/svg+xml"/>
+			
+		</map:match>
+		
+		<map:match pattern="geography.html">
+		<map:generate src="geography.xml"/>
+		<map:transform src="geography1.xsl">
+			<map:parameter name="use-request-parameters" value="true"/>
+			</map:transform>
+		<map:serialize type="html"/>
+		</map:match>
+		
+		</map:pipeline>
+		
+		
+		
+	
+	<!-- Weiterleiten auf Unteranwendungen -->
+	
+
+ </map:pipelines>
+
+</map:sitemap>
+

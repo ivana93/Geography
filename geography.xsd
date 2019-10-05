@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="geography">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="religions"/>
+        <xs:element ref="countries"/>
+      </xs:sequence>
+      <xs:attribute name="title" use="required"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="religions">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="religion"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="countries">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="country"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="country">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="id"/>
+        <xs:element ref="name"/>
+        <xs:element ref="capital"/>
+        <xs:element ref="language"/>
+        <xs:element ref="area"/>
+        <xs:element ref="population"/>
+        <xs:element ref="details"/>
+        <xs:element maxOccurs="unbounded" ref="religion"/>
+        <xs:element ref="currency"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="capital" type="xs:NCName"/>
+  <xs:element name="language" type="xs:NCName"/>
+  <xs:element name="area" type="xs:string"/>
+  <xs:element name="population" type="xs:string"/>
+  <xs:element name="details" type="xs:string"/>
+  <xs:element name="currency" type="xs:string"/>
+  <xs:element name="religion">
+    <xs:complexType mixed="true">
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="id"/>
+        <xs:element ref="description"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="description" type="xs:NCName"/>
+  <xs:element name="id" type="xs:NCName"/>
+</xs:schema>
